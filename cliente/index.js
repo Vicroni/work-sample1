@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const readline = require('readline');
 
 // Connect to the WebSocket server at a specific URL
-const ws = new WebSocket('wss://umtst849c9.execute-api.us-east-1.amazonaws.com/production');
+const ws = new WebSocket('wss://api-id.execute-api.us-east-1.amazonaws.com/production');
 // Setup interactive console for user input
 const rl = readline.createInterface({
   input: process.stdin,
